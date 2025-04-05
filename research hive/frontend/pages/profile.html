@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="../js/profile.js" defer></script>
+</head>
+<body>
+  <div class="app-container">
+    <nav class="sidebar">
+      <h2>Hive</h2>
+      <ul>
+        <li><a href="dashboard.html">🏠 Home</a></li>
+        <li><a href="profile.html">👤 Profile</a></li>
+        <li><a href="connections.html">🔗 Connections</a></li>
+        <li><a href="messages.html">💬 Messages</a></li>
+        <li><a href="index.html">🚪 Logout</a></li>
+      </ul>
+    </nav>
+
+    <div class="main-content">
+      <header class="navbar">
+        <input type="text" placeholder="Search Researchers..." />
+        <button id="themeToggle">🌙</button>
+      </header>
+
+      <section class="profile-card">
+        <h2>My Profile</h2>
+        <div id="profileDetails" class="profile-info">
+          <!-- Dynamic content from JS -->
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Research | Researcher Hive</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <nav class="sidebar">
+      <h2>Hive</h2>
+      <ul>
+        <li><a href="dashboard.html">🏠 Home</a></li>
+        <li><a href="profile.html">👤 Profile</a></li>
+        <li><a href="connections.html">🔗 Connections</a></li>
+        <li><a href="messages.html">💬 Messages</a></li>
+        <li><a href="upload.html">📑 Upload</a></li>
+        <li><a href="index.html">🚪 Logout</a></li>
+      </ul>
+    </nav>
+
+    <div class="main-content">
+      <header class="navbar">
+        <h3>Upload Research Work</h3>
+        <button id="themeToggle">🌙</button>
+      </header>
+
+      <section class="upload-form">
+        <form id="researchForm" enctype="multipart/form-data">
+          <input type="text" placeholder="Title" required />
+          <input type="text" placeholder="Tags (comma separated)" />
+          <textarea placeholder="Description"></textarea>
+          <input type="file" accept=".pdf" required />
+          <button type="submit">Upload</button>
+        </form>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
