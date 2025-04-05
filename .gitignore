@@ -1,2 +1,12 @@
 backend/node_modules/
 frontend/node_modules/
+# logs
+logs
+*.log
+
+# uploads
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
